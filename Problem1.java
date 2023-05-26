@@ -19,7 +19,9 @@ public class Problem1 {
 
         sort(list);
 
-        System.out.println(list);
+        for (int i = 0; i < 10; i++) {
+            list.get(i);
+        }
     }
 
     public static void sort(ArrayList<Number> list) {
