@@ -19,8 +19,8 @@ public class Problem1 {
 
         sort(list);
 
-        for (int i = 0; i < 10; i++) {
-            list.get(i);
+       for (int i = 0; i < 10; i++) {
+            System.out.print(list.get(i) + " " );
         }
     }
 
